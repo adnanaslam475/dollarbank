@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+h1{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+p{
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: justify;
+}
+.Options{
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.headerOptions{
+  font-size: 1rem;
+  font-weight: 400;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: "MuseoSans";
+  src: local("MuseoSans"),
+  url("../src/fonts/MuseoSans_500.otf") format("truetype");
+  font-weight: bold;
+  }

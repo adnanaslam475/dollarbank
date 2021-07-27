@@ -1,0 +1,53 @@
+.Custom{
+    display:flex;
+    justify-content:space-between;
+    border: 1px solid black;
+    align-items: flex-start;
+    padding:1rem 2rem;
+    margin-bottom:2rem;
+}
+.CustomOption{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;   
+}
+.CustomOptionn{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+}
+
+.aTag{
+    margin: 0.5rem ;
+    color: #2774AE;
+}
+.button{
+    background-color: #2e8b57 !important;
+    color: white !important;
+    margin-right: 2rem !important;
+}
+@media (max-width:900px){
+    .Custom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+       
+    }
+    .CustomOptionn{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        
+    }
+    .button{
+        width: 100% !important;
+        margin: 1rem 0rem !important;
+    }
+    .aTag{
+        margin: 1rem ;
+        color: #2774AE;
+    }
+}

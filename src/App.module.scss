@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+p,h1,h2,h3,h4,h5,h6,span,a,div{
+    font-family: 'MuseoSans';
+}
+.MuiSvgIcon-root{
+    fill: #ff003c !important;
+}
+.MuiStepIcon-root.MuiStepIcon-active{
+    color: #2774AE !important;
+    border: 2px solid red;
+}
+.Option_CircleIcon__3kF2y{ 
+     color: #2774AE !important;
+    }
+.Screen{
+    margin: 0 10rem;
+}
+.NavigationOption{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 2rem 0rem; 
+}
+.icn{ color: lightgray;
+    cursor:pointer;
+     margin: 0 15px 0 15px;
+    }
+.NavButton{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.IconLabel{
+    font-size: 1rem;
+}
+@media (max-width:1400px){
+    .Screen{
+        margin: 0 5rem;
+    }
+}
+@media (max-width:420px){
+    .Screen{
+        margin: 0 2rem;
+    }
+    .Stepper{
+        padding: 0.5rem 0%;
+        width: 100%;
+    }
+}

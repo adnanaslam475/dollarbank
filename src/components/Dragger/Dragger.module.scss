@@ -1,0 +1,52 @@
+.Dragger{
+    padding:10px;
+    width: 35rem;
+    min-height: 300;
+}
+.composite_img{
+    padding: 20% 45%;
+    width: 50px;
+    height: 50px;
+}
+@media (max-width:1500px){
+    .Dragger{
+        width:28rem;
+    }
+    .composite_img{
+        padding: 24% 45%;
+    }    
+}
+
+
+@media (max-width:1150px){
+    .Dragger{
+        width: 25rem;
+    }
+    .composite_img{
+        padding: 28% 45%;
+    }
+}
+@media (max-width:1030px){
+    .Dragger{
+        width: 23rem;
+    }
+    .composite_img{
+        padding: 30% 45% ;
+    }
+}
+@media (max-width:980px){
+    .Dragger{
+        width: 18rem;
+    }
+    .composite_img{
+        padding: 38% 45% ;
+    }
+}
+@media (max-width:800px){
+    .Dragger{
+        display: none;
+    }
+    .DragHeading{
+        display: none;
+    }
+}

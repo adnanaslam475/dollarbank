@@ -1,0 +1,20 @@
+.CheckBox{
+    display: none;
+}
+.Dragger{
+    margin:1rem 0rem;
+}
+.NextButton{
+    background-color: #2e8b57 !important;
+    color:white !important;
+    padding:1rem 1.5rem !important;
+    margin:5rem 0rem !important;
+}
+@media (max-width:800px){
+    .CheckBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1.2rem;
+    }
+}
