@@ -11,7 +11,7 @@ const Step3 = props => {
                     <p>Here’s what we recommend, based on your preferences and needs…</p>
                     <CustomView title="Everything Checking" detail="$50 initial deposit required"
                         value={true} buttonName="Buy Now" value1="Schedule an Appointment" value2="Print Recommendation" />
-                    <p style={{ marginBottom: '3rem' }}>Why?</p>
+                    <p style={{ margin: '2rem' }}>Why?</p>
                     <Options title="With the $3,000 average monthly balance you plan on keeping in the account, the service fee would be removed for you. You can also avoid the fee by making 6 payments a month." />
                     <Options title="You can potentially save on the rates for your Dollar Bank mortgage with this account" />
                     <Options title="Using the ATM is a common activity for you, and non-Dollar Bank usage won’t incur a fee from us" />
@@ -29,7 +29,7 @@ const Step3 = props => {
                     <p style={{ margin: '2rem 0' }}>Want a second opinion? Here’s another good option for you.</p>
                     <CustomView title="Free Checking" detail="$50 initial deposit required" value={true} buttonName="Buy Now" value1="Schedule an Appointment"
                         value2="Print Recommendation" />
-                    <p style={{ marginBottom: '3rem' }}>Why?</p>
+                    <p style={{ margin: '3rem' }}>Why?</p>
                     <Options title="Optional automated transfers can be set up in case of an overdraft on your checking account. If it happens, we’ll pull any available funds in savings to cover and charge $10 (instead of our typical nonsufficient funds fee" />
                 </div>}
         </div>

@@ -22,7 +22,7 @@ const Step1 = props => {
                 <CheckBox title="Visiting an ATM to get cash" />
                 <CheckBox title="Writing checks" />
             </div>
-            <p style={{ marginBottom: '1rem', marginLeft: '2.5rem' }}>Quick reminder - all Dollar Bank accounts offer..</p>
+            <p style={{ marginBottom: '1rem', marginLeft: '4rem' }}>Quick reminder - all Dollar Bank accounts offer..</p>
             <Options title="Full-service banking from any of our convenient locations, and free Dollar Bank ATMs" />
             <Options title="Debit card with multiple design options Bank anywhere, anytime with Online and Mobile Banking, including mobilecheck deposit" />
             <Options title="Instantly pay friends and family electronically with Zelle" />
